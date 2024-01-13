@@ -1,0 +1,53 @@
+body {
+  font-family: 'Verdana', sans-serif; /* Change font to Verdana */
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Set body background color to a light gray */
+}
+
+header {
+  background-color: #4a90e2; /* Set header background color to a deep blue */
+  color: #ffffff; /* Set text color in the header to white */
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+.header-contact p {
+  margin-bottom: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff; /* Set section background color to white */
+}
+
+h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-contact p {
+    margin-right: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+}

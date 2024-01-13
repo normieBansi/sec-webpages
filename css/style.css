@@ -1,0 +1,260 @@
+*{
+    scrollbar-width: none;
+}
+
+#banner-container {
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+}
+
+#banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#logo-left,
+#logo-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 8vw;
+    width: auto;
+    padding: 1%;
+}
+
+#logo-left {
+    left: 10vw;
+}
+
+#logo-right {
+    right: 10vw;
+}
+
+#banner-text{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    left: 30%;
+    right: 30%;
+}
+
+#fftr {
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+    transform: rotatex(180deg);
+}
+
+#credit {
+    text-align: center;
+    position: absolute;
+    top: -6%;
+    height: 2vw;
+    width: auto;
+    padding: 1%;
+    transform: rotatex(180deg);
+    display: block;
+    color: rgb(174, 174, 174);
+}
+
+#big_bird{
+    position: relative;
+    display: flex;
+    align-items:end;
+}
+
+#bird{
+    display: block;
+    position:relative;
+    width: 5%;
+}
+
+table {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 1%;
+    border: 1px solid black;
+    border-spacing: 5px 5px;
+    margin: 10% auto;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px;
+}
+
+td {
+    padding: 5px;
+}
+
+.col_grp1 {
+    border: yellowgreen solid 1.5px;
+    border-radius: 100px;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+}
+
+.col_grp2 {
+    border: black solid 1.5px;
+    border-radius: 12px;
+    text-align: center;
+    width: 110px;
+    padding: 5px;
+}
+
+/* for names */
+.col_grp3 {
+    border: black solid 1.5px;
+    padding: 1% 5% 1% 4%;
+    border-radius: 12px;
+    text-align: left;
+    width: 345px;
+    font-size: 12pt;
+}
+
+.col_grp4 {
+    border-radius: 10px;
+    text-align: center;
+    max-width: max-content;
+    max-height: 2%;
+}
+
+
+
+
+/* Buttons */
+/* button-54 */
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 3px;
+    left: 3px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}
+
+/* for the creator */
+.button-amongus {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(116, 116, 116);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: solid 2px black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: hsl(49deg 98% 60%);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    padding: 0;
+}
+
+.button-amongus:active {
+    transform: scale(0.9);
+    transition: all 100ms ease;
+}
+
+.button-amongus svg {
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.play {
+    transition: all 0.5s ease;
+    transition-delay: 300ms;
+}
+
+.button-amongus:hover svg {
+    transform: scale(3) translate(50%);
+}
+
+.now {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.button-amongus:hover .now {
+    transform: translateX(10px);
+    transition-delay: 300ms;
+}
+
+.button-amongus:hover .play {
+    transform: translateX(200%);
+    transition-delay: 300ms;
+}
+
+
+/* dropdown */
+.select-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #fcfcfc;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px rgb(94, 94, 94), 2px 2px 0px 0px rgb(94, 94, 94), 3px 3px 0px 0px rgb(94, 94, 94);
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.custom-select:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 3px;
+    left: 3px;
+}
+
+.custom-select option {
+    text-transform: capitalize;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .custom-select {
+        padding: 0.25em 0.75em;
+    }
+}

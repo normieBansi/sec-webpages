@@ -1,0 +1,38 @@
+h5{
+   font-family: 'Times New Roman';
+   font-size: 20pt;
+   color: red;
+}
+h6{
+   font-size: 17pt;
+   font-weight: bolder;
+}
+p.x{
+   font-size: 20pt;
+   font-style: italic;
+   font-family: 'Times New Roman';
+   color: magenta;
+}
+design{
+   padding: 1in;
+}
+
+th.red{color: red;}
+
+.spanred{
+   font-size: 10pt;
+   font-family: arial;
+   color: red;
+}
+
+.spanpurple{
+   font-size: 20pt;
+   font-family: arial;
+   color: purple;
+}
+
+.spangreen{
+   font-size: 25pt;
+   font-family: arial;
+   color: green;
+}

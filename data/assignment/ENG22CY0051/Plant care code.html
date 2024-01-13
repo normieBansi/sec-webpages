@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gardening and Plant Care</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #plant-care-tip {
+            text-align: center;
+        }
+
+        #tip-image {
+            max-width: 50%;
+            height: 10%;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gardening and Plant Care</h1>
+    </header>
+
+    <main>
+        <section id="plant-care-tip">
+            <h2>Plant Care Tip of the Day</h2>
+            <!-- Image element with an ID for styling -->
+            <img id="tip-image" src="https://img.freepik.com/free-vector/people-taking-care-plants-hand-drawn_23-2148978452.jpg" alt="Plant Care Image">
+            <p id="tip-content">Loading...</p>
+            <button onclick="generateTip()">Generate New Tip</button>
+        </section>
+    </main>
+
+    <script>
+        const plantCareData = [
+            {
+                tip: "Water your plants consistently but avoid overwatering.",
+                image: "https://www.giftjaipur.com/blog/wp-content/uploads/2018/08/feature-2.png"
+            },
+            {
+                tip: "Provide adequate sunlight based on the plant's requirements.",
+                image: "https://letstalkscience.ca/sites/default/files/2022-04/seedling_sunlight.jpg"
+            },
+            {
+                tip: "Use high-quality soil with proper drainage for healthier plants.",
+                image: "https://images.squarespace-cdn.com/content/v1/58a8e19ca5790a1849e6c728/1643399477682-AUHTPT72ECR1L9Y1NZKP/DRP-Store-Photo6-mulch-1000px.jpg"
+            },
+            {
+                tip: "Prune your plants regularly to promote growth and remove dead parts.",
+                image: "https://www.ugaoo.com/cdn/shop/articles/shutterstock_170189024.jpg?v=1661857099"
+            },
+            {
+                tip: "Rotate indoor plants periodically to ensure even exposure to sunlight.",
+                image: "https://flourishingplants.com/wp-content/uploads/2021/01/Rotating-Houseplants.jpg"
+            }
+        ];
+        function generateTip() {
+            const tipElement = document.getElementById("tip-content");
+            const imageElement = document.getElementById("tip-image");
+            const randomIndex = Math.floor(Math.random() * plantCareData.length);
+            imageElement.src = plantCareData[randomIndex].image;
+            tipElement.textContent = plantCareData[randomIndex].tip;
+        }
+        generateTip();
+    </script>
+</body>
+</html>

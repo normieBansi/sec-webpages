@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshatha's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Create header
+            const header = document.createElement("header");
+            header.innerHTML = "<h1>Akshatha S</h1><img src='./akshatha.jpg' alt='Akshtha' width='15%' style='border-radius: 25%;'/><p>Email: <a href='mailto:aakshatha828@gmail.com'>aakshatha828@gmail.com</a></p><p>Phone: 8197120628</p>";
+            document.body.appendChild(header);
+
+            // Create education section
+            const educationSection = document.createElement("section");
+            educationSection.innerHTML = "<h2>Education</h2><ul><li>Bachelor of Technology (B.Tech) Graduate</li></ul>";
+            document.body.appendChild(educationSection);
+
+            // Create skills section
+            const skillsSection = document.createElement("section");
+            skillsSection.innerHTML = "<h2>Skills</h2><ul><li>C programming</li><li>C++ programming</li><li>HTML</li><li>Data Structures</li></ul>";
+            document.body.appendChild(skillsSection);
+
+            // Create link section
+            const linkSection = document.createElement("section");
+            linkSection.innerHTML = "<h2>Example of a Link</h2><p>Check out my GitHub profile: <a href='https://example.com'>https://github.com/akshatha</a></p>";
+            document.body.appendChild(linkSection);
+        });
+    </script>
+</body>
+</html>

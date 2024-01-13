@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+	<title>Rainbow text</title>
+</head>
+<body>
+	
+	<h1>Hello, this is a simple website!</h1>
+	<p>Click the button to change the text color:</p>
+	<button onclick="changeColor()">Change Color</button>
+	<h1><p id="textToChange">I can change color!</p><h1>
+	<script type="text/javascript">
+		function changeColor(){
+			var textElement = document.getElementById("textToChange");
+			textElement.style.color = getRandomColor();
+		}
+		function getRandomColor(){
+			var letters = '0123456789ABCDEF';
+			var color = '#';
+			for(var i = 0; i < 6; i++){
+				color += letters[Math.floor(Math.random() * 16)];
+			}
+			return color;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>Grade</title><head>
+<script type="text/javascript">
+	function grade(){
+		var num1,num2,num3,num4,num5,n,g,total;
+		num1=Number(prompt("Enter the marks1"+"\n"));
+		num2=Number(prompt("Enter the marks2"+"\n"));
+		num3=Number(prompt("Enter the marks3"+"\n"));
+		num4=Number(prompt("Enter the marks4"+"\n"));
+		num5=Number(prompt("Enter the marks5"+"\n"));
+		total=num1+num2+num3+num4+num5;
+		n=total/5;
+		if(n>=90){
+			g="A";
+		}else if(n>=80 && n<90){
+			g="B";
+		}else if(n>=70 && n<80){
+			g="C";
+		}else if(n>=60 && n<70){
+			g="D";
+		}else if(n>=50 && n<60){
+			g="E";
+		}else{
+			g="F";
+		}
+		document.write("<h1>YOUR TOTAL IS: "+total+"</h1>");
+		document.write("<h1>YOUR AVERAGE IS: "+n+"</h1>");
+		document.write("<h1>YOUR GRADE IS: "+g+"</h1>");
+		return;
+	}
+</script>
+<body onload="grade();">
+</body>
+</html>

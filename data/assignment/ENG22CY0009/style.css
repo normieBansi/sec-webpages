@@ -1,0 +1,241 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+.container { 
+	background-color: #e5e5fd; 
+	min-height: 100vh; 
+	border: 10px solid #1d1e4c; 
+} 
+.content { 
+	max-width: 900px; 
+	margin: 0 auto; 
+} 
+.top_section { 
+	margin-top: 100px; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: flex-end; 
+} 
+.top_section h1 { 
+	font-size: 50px; 
+	font-weight: bold; 
+	color: #1d1e4c; 
+	text-transform: uppercase; 
+} 
+.top_section h4 { 
+	font-size: 30px; 
+	text-align: end; 
+} 
+.image_container { 
+	border-radius: 50%; 
+	overflow: hidden; 
+} 
+.image_container, img { 
+	width: 300px; 
+	height: 320px; 
+} 
+.about_section { 
+	margin-top: 50px; 
+} 
+.about_section h2 { 
+	font-size: 70px; 
+	font-weight: 400; 
+	margin-bottom: 20px; 
+} 
+.about_section p { 
+	font-size: 20px; 
+	line-height: 30px; 
+	letter-spacing: 1.2px; 
+	text-align: justify; 
+} 
+.biography_section { 
+	margin: 50px 0; 
+} 
+.biography_section h3 { 
+	margin-bottom: 20px; 
+} 
+.biography_section ul { 
+	margin-left: 50px; 
+} 
+.biography_section li { 
+	margin-bottom: 15px; 
+} 
+footer { 
+	margin: 50px 0; 
+} 
+footer p { 
+	text-align: end; 
+} 
+/* General styling */ 
+body { 
+font-family: 'Arial', sans-serif; 
+	margin: 0; 
+	padding: 0; 
+	background-color: #f2f2f2; 
+} 
+.container { 
+	max-width: 800px; 
+	margin: 0 auto; 
+} 
+.content { 
+	padding: 20px; 
+} 
+/* Animation styles */ 
+@keyframes fadeIn { 
+	from { 
+		opacity: 0; 
+	} 
+	to { 
+		opacity: 1; 
+	} 
+} 
+@keyframes slideUp { 
+	from { 
+		transform: translateY(50px); 
+	} 
+	to { 
+		transform: translateY(0); 
+	} 
+} 
+.top_section img, 
+.top_section div h1, 
+.top_section div h4, 
+.about_section h2, 
+.about_section p, 
+.biography_section h3, 
+.biography_section ul, 
+footer p { 
+	animation: fadeIn 1.5s ease-out; 
+} 
+.about_section h2, 
+.about_section p, 
+.biography_section h3, 
+.biography_section ul, 
+footer p { 
+	animation: slideUp 1s ease-out; 
+} 
+/* Additional animations using CSS */ 
+.top_section img { 
+	animation: rotate 6s infinite linear; 
+} 
+@keyframes rotate { 
+from { 
+	transform: rotate(0deg); 
+} 
+to { 
+	transform: rotate(720deg); 
+} 
+} 
+.container:hover .about_section, 
+.container:hover .biography_section, 
+.container:hover footer { 
+	opacity: 1; 
+	transform: translateY(0); 
+} 
+.top_section img { 
+	animation: rotate 6s linear; 
+} 
+@keyframes rotate { 
+	from { 
+		transform: rotate(0deg); 
+	} 
+	to { 
+		transform: rotate(720deg); 
+	} 
+} 
+.top_section img:hover { 
+	transform: scale(1.1); 
+	transition: transform 0.5s ease-in-out; 
+} 
+.top_section img:hover { 
+	transform: scale(1.1) rotate(15deg); 
+	transition: transform 0.5s ease-in-out; 
+} 
+.about_section { 
+	background: linear-gradient(90deg, #ff7e5f, #feb47b); 
+	background-size: 200% 100%; 
+	animation: gradientBackground 5s ease-in-out infinite alternate; 
+} 
+@keyframes gradientBackground { 
+	0% { 
+		background-position: 0% 0%; 
+	} 
+	100% { 
+		background-position: 100% 0%; 
+	} 
+} 
+.biography_section { 
+	perspective: 1000px; 
+} 
+.biography_section:hover .card { 
+	transform: rotateY(180deg); 
+} 
+.card { 
+	position: relative; 
+	transform-style: preserve-3d; 
+	transform-origin: center right; 
+	transition: transform 1s ease-in-out; 
+} 
+.card .side { 
+	backface-visibility: hidden; 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+} 
+.card .front { 
+	transform: rotateY(0deg); 
+} 
+.card .back { 
+	transform: rotateY(180deg); 
+} 
+.about_section.animate-on-scroll, 
+.biography_section.animate-on-scroll, 
+footer.animate-on-scroll { 
+	opacity: 1; 
+	transform: translateX(0); 
+} 
+.top_section div:hover h1 { 
+	color: #ff7e5f; 
+	transition: color 0.5s ease-in-out; 
+} 
+.top_section div h1::after { 
+	content: ''; 
+	display: block; 
+	width: 0; 
+	height: 3px; 
+	background: #ff7e5f; 
+	transition: width 0.3s ease-in-out; 
+} 
+.top_section div:hover h1::after { 
+	width: 100%; 
+} 
+.biography_section li { 
+	position: relative; 
+	cursor: pointer; 
+} 
+.biography_section li::before { 
+	content: '\2022'; 
+	color: #feb47b; 
+	font-size: 20px; 
+	position: absolute; 
+	left: -20px; 
+	transition: left 0.3s ease-in-out; 
+} 
+.biography_section li:hover::before { 
+	left: -30px; 
+} 
+footer a:hover { 
+	background-image: linear-gradient(90deg, #ff7e5f, #feb47b); 
+	background-size: 200% 100%; 
+	animation: gradientBackgroundFooter 5s ease-in-out infinite alternate; 
+} 
+@keyframes gradientBackgroundFooter { 
+	0% { 
+		background-position: 0% 0%; 
+	} 
+	100% { 
+		background-position: 100% 0%; 
+	} 
+}

@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .recipe {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .comments {
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        img{
+            border-radius: 2%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recipe Blog</h1>
+    </header>
+
+    <main>
+        <div class="recipe" id="recipe1">
+            <h2>Spaghetti Bolognese</h2>
+            <img src="./spaghetti.jpg" alt="Spaghetti Bolognese" width="50%">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>Spaghetti</li>
+                <li>Ground beef</li>
+                <li>Tomato sauce</li>
+                <!-- Add more ingredients as needed -->
+            </ul>
+
+            <h3>Instructions</h3>
+            <ol>
+                <li>Boil water and cook spaghetti according to package instructions.</li>
+                <li>In a pan, brown the ground beef.</li>
+                <li>Add tomato sauce and simmer until cooked through.</li>
+                <!-- Add more steps as needed -->
+            </ol>
+
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul id="commentsList1"></ul>
+
+                <form id="commentForm1">
+                    <label for="comment">Add a comment:</label>
+                    <input type="text" id="comment" required>
+                    <button type="button" onclick="addComment('commentsList1', 'commentForm1')">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="recipe" id="recipe2">
+            <h2>Classic Brownies</h2>
+            <img src="./brownie.jpeg" alt="Classic Brownies" width="50%">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>Unsalted butter</li>
+                <li>Granulated sugar</li>
+                <li>Eggs</li>
+                <li>All-purpose flour</li>
+                <li>Cocoa powder</li>
+                <!-- Add more ingredients as needed -->
+            </ul>
+
+            <h3>Instructions</h3>
+            <ol>
+                <li>Preheat the oven to 350°F (175°C) and grease a baking pan.</li>
+                <li>Melt the butter and mix with sugar, eggs, flour, and cocoa powder.</li>
+                <li>Pour the batter into the pan and bake for 25-30 minutes.</li>
+                <!-- Add more steps as needed -->
+            </ol>
+
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul id="commentsList2"></ul>
+
+                <form id="commentForm2">
+                    <label for="comment">Add a comment:</label>
+                    <input type="text" id="comment" required>
+                    <button type="button" onclick="addComment('commentsList2', 'commentForm2')">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="recipe" id="recipe3">
+            <h2>Red Pasta</h2>
+            <img src="./penne.jpg" alt="Red Pasta" width="50%">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>Penne pasta</li>
+                <li>Olive oil</li>
+                <li>Garlic</li>
+                <li>Tomato sauce</li>
+                <li>Italian seasoning</li>
+                <!-- Add more ingredients as needed -->
+            </ul>
+
+            <h3>Instructions</h3>
+            <ol>
+                <li>Cook penne pasta according to package instructions.</li>
+                <li>In a pan, sauté minced garlic in olive oil.</li>
+                <li>Add tomato sauce and Italian seasoning; simmer for 10 minutes.</li>
+                <li>Toss cooked pasta in the sauce until well coated.</li>
+                <!-- Add more steps as needed -->
+            </ol>
+
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul id="commentsList3"></ul>
+
+                <form id="commentForm3">
+                    <label for="comment">Add a comment:</label>
+                    <input type="text" id="comment" required>
+                    <button type="button" onclick="addComment('commentsList3', 'commentForm3')">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Add more recipes here with similar structure -->
+    </main>
+
+    <script>
+        function addComment(listId, formId) {
+            const commentInput = document.getElementById('comment');
+            const commentsList = document.getElementById(listId);
+            
+            if (commentInput.value.trim() !== "") {
+                const li = document.createElement('li');
+                li.textContent = commentInput.value;
+                commentsList.appendChild(li);
+                document.getElementById(formId).reset();
+            }
+        }
+    </script>
+</body>
+</html>

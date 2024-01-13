@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Simple Website</title>
+	<style>
+		.color-blink {
+			animation: color-blink 2s infinite;
+			/* Adjust duration and speed as needed */
+		}
+
+		@keyframes color-blink {
+			0% {
+				color: red;
+			}
+
+			25% {
+				color: blue;
+			}
+
+			50% {
+				color: green;
+			}
+
+			75% {
+				color: yellow;
+			}
+
+			100% {
+				color: red;
+			}
+
+			/* Cycle back to the starting color */
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Hello, this is a random <span class="color-blink">colored</span> textsite!</h1>
+	<p>Click the button to change the text color:</p>
+	<button onclick="changeColor()">Change Color</button>
+	<h2 id="textToChange">I can change color!</h2>
+	<script type="text/javascript">
+		function changeColor() {
+			var textElement = document.getElementById("textToChange");
+			textElement.style.color = getRandomColor();
+		}
+		function getRandomColor() {
+			var letters = '0123456789ABCDEF';
+			var color = '#';
+			for (var i = 0; i < 6; i++) {
+				color += letters[Math.floor(Math.random() * 16)];
+			}
+			return color;
+		}
+	</script>
+	<footer style="position: fixed;	bottom: 0;	width: 100%;	background-color: #f0f0f0;	text-align: center; padding: 10px;	font-weight: bold;">WARNING: This website contains flashing lights and images that may trigger seizures for people with photosensitive epilepsy.</footer>
+</body>
+
+</html>

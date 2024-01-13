@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="cssfile.css">
+    <script defer src="verifyPassword.js"></script>
+	<h1 style="text-align:center">Dayananda Sagar University</h1>
+	<h3 style="text-align:center ">Devarakaggalahalli, Harohalli,Kanakapura Road, Ramanagara Dt.,Bengaluru – 562 112</h3>
+</head>
+<body>
+         
+         <div class="container">
+         <div class="contact-info">
+		    <p>Contact Info</p>
+            <p>Email: <a href="mailto:admissions@dsu.edu.in">admissions@dsu.edu.in</a></p>
+            <p>Phone: <a href="tel:08049092910">08049092910</a></p>
+        <h2 style="text-align:center">Registration Form  </h2>
+        <form onsubmit="return verifyPasswords()">
+		<div class="container">
+            <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" id="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm Password:
+                </td>
+                <td>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                    <span id="passwordError" style="color: red;"></span>
+                </td>
+            </tr>
+           
+			  <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="checkbox"Male>Male
+                    <input type="checkbox"Female>Female
+                    <input type="checkbox"Other>Other
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Education Qualification:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>10+2</option>
+                        <option>Graduation</option>
+                        <option>Postgraduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+			 <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: 'Times New Roman', serif, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-photo {
+  display: block;
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10%; /* Makes the image round */
+  margin-bottom: px; /* Add space below the photo */
+  margin: 0 auto 20px;
+}
+
+.name {
+  font-size: 3em; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add space below the name */
+}
+/* ... Your existing CSS styles ... */
+
+header {
+  background-color: #f0f0f0; /* Adjust background color */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s; /* Adding transition for smooth color change */
+}
+
+/* Adding hover effect */
+nav ul li a:hover {
+  color: blue; /* Change color on hover, replace with your preferred color */
+}
+/* ... Your existing CSS styles ... */
+
+header {
+  background-color: #333; /* Dark background color */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Default link color */
+  transition: color 0.3s; /* Adding transition for smooth color change */
+}
+
+/* Adding hover effect */
+nav ul li a:hover {
+  color: #00f7ff; /* Change color on hover, replace with your preferred color */
+}
+/* ... Your existing CSS styles ... */
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.birthdate {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+/* Set the background color for the entire website */
+body {
+  background-color: #2cd2cc; /* Replace with your preferred color */
+  margin: 0;
+  padding: 0;
+}
+
+/* ... Your existing CSS styles ... */
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #5b4dd2;
+  box-shadow: 0 0 10px rgba(81, 24, 24, 0.1);
+  border-radius: 5px;
+}
+/* ... Your existing CSS styles ... */
+
+/* Adjustments for social media icons */
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.social-icon {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  vertical-align: middle; /* Align icons vertically */
+}

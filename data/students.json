@@ -1,0 +1,338 @@
+[
+    {
+        "Sr. No": 1,
+        "USN": "ENG22CY0001",
+        "Name": "Abhishek J",
+        "FilePath": "./data/assignment/ENG22CY0001"
+    },
+    {
+        "Sr. No": 2,
+        "USN": "ENG22CY0002",
+        "Name": "Aishwarya R Waghamare",
+        "FilePath": "./data/assignment/ENG22CY0002"
+    },
+    {
+        "Sr. No": 3,
+        "USN": "ENG22CY0003",
+        "Name": "Akshita Demmita",
+        "FilePath": "./data/assignment/ENG22CY0003"
+    },
+    {
+        "Sr. No": 4,
+        "USN": "ENG22CY0004",
+        "Name": "Amit V",
+        "FilePath": "./data/assignment/ENG22CY0004"
+    },
+    {
+        "Sr. No": 5,
+        "USN": "ENG22CY0005",
+        "Name": "Ashwini Jadhav",
+        "FilePath": "./data/assignment/ENG22CY0005"
+    },
+    {
+        "Sr. No": 6,
+        "USN": "ENG22CY0006",
+        "Name": "Bansidharee Maji",
+        "FilePath": "./data/assignment/ENG22CY0006"
+    },
+    {
+        "Sr. No": 7,
+        "USN": "ENG22CY0007",
+        "Name": "Bulasala Venkata Manobhiram",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 8,
+        "USN": "ENG22CY0008",
+        "Name": "Darshan H Teppad",
+        "FilePath": "./data/assignment/ENG22CY0008"
+    },
+    {
+        "Sr. No": 9,
+        "USN": "ENG22CY0009",
+        "Name": "Farman I",
+        "FilePath": "./data/assignment/ENG22CY0009"
+    },
+    {
+        "Sr. No": 10,
+        "USN": "ENG22CY0010",
+        "Name": "Harshith R",
+        "FilePath": "./data/assignment/ENG22CY0010"
+    },
+    {
+        "Sr. No": 11,
+        "USN": "ENG22CY0011",
+        "Name": "Jashwanth A Shetty",
+        "FilePath": "./data/assignment/ENG22CY0011"
+    },
+    {
+        "Sr. No": 12,
+        "USN": "ENG22CY0012",
+        "Name": "Kartik Baburay Mirji",
+        "FilePath": "./data/assignment/ENG22CY0012"
+    },
+    {
+        "Sr. No": 13,
+        "USN": "ENG22CY0013",
+        "Name": "Khushal Kalal",
+        "FilePath": "./data/assignment/ENG22CY0013"
+    },
+    {
+        "Sr. No": 14,
+        "USN": "ENG22CY0014",
+        "Name": "Milind M Patil",
+        "FilePath": "./data/assignment/ENG22CY0014"
+    },
+    {
+        "Sr. No": 15,
+        "USN": "ENG22CY0015",
+        "Name": "Naveen Mooki",
+        "FilePath": "./data/assignment/ENG22CY0015"
+    },
+    {
+        "Sr. No": 16,
+        "USN": "ENG22CY0016",
+        "Name": "Nithin Kumar K R",
+        "FilePath": "./data/assignment/ENG22CY0016"
+    },
+    {
+        "Sr. No": 17,
+        "USN": "ENG22CY0017",
+        "Name": "Praveen",
+        "FilePath": "./data/assignment/ENG22CY0017"
+    },
+    {
+        "Sr. No": 18,
+        "USN": "ENG22CY0018",
+        "Name": "Ramya D",
+        "FilePath": "./data/assignment/ENG22CY0018"
+    },
+    {
+        "Sr. No": 19,
+        "USN": "ENG22CY0019",
+        "Name": "Raveena Dharmappa",
+        "FilePath": "./data/assignment/ENG22CY0019"
+    },
+    {
+        "Sr. No": 20,
+        "USN": "ENG22CY0020",
+        "Name": "Sachin Pujappa Baluragi",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 21,
+        "USN": "ENG22CY0021",
+        "Name": "Sainath",
+        "FilePath": "./data/assignment/ENG22CY0021"
+    },
+    {
+        "Sr. No": 22,
+        "USN": "ENG22CY0022",
+        "Name": "Samrdhe",
+        "FilePath": "./data/assignment/ENG22CY0022"
+    },
+    {
+        "Sr. No": 23,
+        "USN": "ENG22CY0023",
+        "Name": "Sasimollu Murali Karthik",
+        "FilePath": "./data/assignment/ENG22CY0023"
+    },
+    {
+        "Sr. No": 24,
+        "USN": "ENG22CY0024",
+        "Name": "V Anand",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 25,
+        "USN": "ENG22CY0025",
+        "Name": "Adeesh Lokesh Poojary",
+        "FilePath": "./data/assignment/ENG22CY0025"
+    },
+    {
+        "Sr. No": 26,
+        "USN": "ENG22CY0026",
+        "Name": "Aditya Gurunath Kulkarni",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 27,
+        "USN": "ENG22CY0027",
+        "Name": "Akshatha S",
+        "FilePath": "./data/assignment/ENG22CY0027"
+    },
+    {
+        "Sr. No": 28,
+        "USN": "ENG22CY0028",
+        "Name": "Arigela Om Sai Kiran",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 29,
+        "USN": "ENG22CY0029",
+        "Name": "Ateendra Girish",
+        "FilePath": "./data/assignment/ENG22CY0029"
+    },
+    {
+        "Sr. No": 30,
+        "USN": "ENG22CY0030",
+        "Name": "Bhavanasi Abhiram",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 31,
+        "USN": "ENG22CY0031",
+        "Name": "Bindu N",
+        "FilePath": "./data/assignment/ENG22CY0031"
+    },
+    {
+        "Sr. No": 32,
+        "USN": "ENG22CY0032",
+        "Name": "Gali Kavya Suma",
+        "FilePath": "./data/assignment/ENG22CY0032"
+    },
+    {
+        "Sr. No": 33,
+        "USN": "ENG22CY0033",
+        "Name": "Maldireddygari Harinath Babu",
+        "FilePath": "./data/assignment/ENG22CY0033"
+    },
+    {
+        "Sr. No": 34,
+        "USN": "ENG22CY0034",
+        "Name": "Menon Tanvi Krishnakumar",
+        "FilePath": "./data/assignment/ENG22CY0034"
+    },
+    {
+        "Sr. No": 35,
+        "USN": "ENG22CY0035",
+        "Name": "Mohammed Kamraan",
+        "FilePath": "./data/assignment/ENG22CY0035"
+    },
+    {
+        "Sr. No": 36,
+        "USN": "ENG22CY0036",
+        "Name": "Neha Sara Philip",
+        "FilePath": "./data/assignment/ENG22CY0036"
+    },
+    {
+        "Sr. No": 37,
+        "USN": "ENG22CY0037",
+        "Name": "Prajwal N Halvi",
+        "FilePath": "./data/assignment/ENG22CY0037"
+    },
+    {
+        "Sr. No": 38,
+        "USN": "ENG22CY0038",
+        "Name": "Sahana G",
+        "FilePath": "./data/assignment/ENG22CY0038"
+    },
+    {
+        "Sr. No": 39,
+        "USN": "ENG22CY0039",
+        "Name": "Saurav Pandey",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 40,
+        "USN": "ENG22CY0040",
+        "Name": "Shreyashree Rk",
+        "FilePath": "./data/assignment/ENG22CY0040"
+    },
+    {
+        "Sr. No": 41,
+        "USN": "ENG22CY0041",
+        "Name": "Sreeshnav K",
+        "FilePath": "./data/assignment/ENG22CY0041"
+    },
+    {
+        "Sr. No": 42,
+        "USN": "ENG22CY0042",
+        "Name": "Sudarshan Tk",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 43,
+        "USN": "ENG22CY0043",
+        "Name": "Sujal S Shetty",
+        "FilePath": "./data/assignment/ENG22CY0043"
+    },
+    {
+        "Sr. No": 44,
+        "USN": "ENG22CY0044",
+        "Name": "Vignesh Rachapudi",
+        "FilePath": "./data/assignment/ENG22CY0044"
+    },
+    {
+        "Sr. No": 45,
+        "USN": "ENG22CY0045",
+        "Name": "Yeddula Likith Neeraj Reddy",
+        "FilePath": "./data/assignment/ENG22CY0045"
+    },
+    {
+        "Sr. No": 46,
+        "USN": "ENG22CY0046",
+        "Name": "Aparna Unnikrishnan",
+        "FilePath": "./data/assignment/ENG22CY0046"
+    },
+    {
+        "Sr. No": 47,
+        "USN": "ENG22CY0047",
+        "Name": "Debashish Rout L",
+        "FilePath": "./data/assignment/ENG22CY0047"
+    },
+    {
+        "Sr. No": 48,
+        "USN": "ENG22CY0048",
+        "Name": "Molungnenba",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 49,
+        "USN": "ENG22CY0049",
+        "Name": "Swayam R P",
+        "FilePath": "./data/assignment/ENG22CY0049"
+    },
+    {
+        "Sr. No": 50,
+        "USN": "ENG22CY0050",
+        "Name": "Yash Bagga",
+        "FilePath": "./data/assignment/ENG22CY0050"
+    },
+    {
+        "Sr. No": 51,
+        "USN": "ENG22CY0051",
+        "Name": "Ananya S",
+        "FilePath": "./data/assignment/ENG22CY0051"
+    },
+    {
+        "Sr. No": 52,
+        "USN": "ENG22CY0052",
+        "Name": "Keshavaharshavardhana R",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 53,
+        "USN": "ENG22CY0053",
+        "Name": "Lakshya Kumar",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 54,
+        "USN": "ENG22CY0054",
+        "Name": "Subbaiah S M",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 55,
+        "USN": "ENG22CY0055",
+        "Name": "Suraj Mandal",
+        "FilePath": ""
+    },
+    {
+        "Sr. No": 56,
+        "USN": "ENG22CY0056",
+        "Name": "Vikas",
+        "FilePath": ""
+    }
+]

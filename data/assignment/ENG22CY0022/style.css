@@ -1,0 +1,276 @@
+@import url(https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Exo+2&family=Pixelify+Sans&display=swap);
+*{
+	padding: 0; 
+	margin: 0;
+	/* background-color: #23243b; */ 
+}
+/* head */ 
+#head {
+	/* width: 100%; */ 
+	padding: 50px;
+	/* background-color: #ff6f61; */ 
+	background-color: #23243b;
+}
+#head_div { 
+	display: flex; 
+	flex-direction: row; 
+}
+.left {
+	width: 50%;
+	color: #fa4c54; 
+	font-size: 1.5rem;
+	font-family: "Pixelify Sans", sans-serif; 
+}
+.right {
+	width: 50%; 
+	display: flex; 
+	align-items: center; 
+	float: right;
+	justify-content: flex-end; 
+	color: #fa4c54;
+	font-size: 1,5rem;
+	font-family: "Pixelify Sans", sans-serif; 
+}
+.right i { 
+	margin-left: 15px; 
+	font-size: 1.8rem; 
+}
+.right:hover { 
+	color: #ffd166; 
+	cursor: pointer; 
+	transition: 0.3s;
+}
+.left:hover {
+	color: #ffd166;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#main {
+	padding: 50px; 
+	background-color: #23243b;
+}
+.main_cen {
+	display: flex; 
+	justify-content: center; 
+	padding: 50px; 
+	align-items: center;
+	font-family: "Exo 2", sans-serif; 
+}
+.main_left { 
+	color: #eff2f6; 
+	width: 40%; 
+}
+.main_left h1 { 
+	font-size: 3rem; 
+	text-align: left;
+}
+.main_left p { 
+	font-size: 1.3rem; 
+}
+.fa-github { 
+	font-size: 3rem; 
+	color: #fa4c54; 
+	margin-top: 20px; 
+	cursor: pointer;
+}
+.fa-linkedin{ 
+	font-size: 3rem; 
+	color: #fa4c54; 
+	margin-top: 20px; 
+	margin-left: 5px; 
+	cursor: pointer;
+}
+.fa-linkedin:hover { 
+	color: #ffd166;
+}
+.fa-github:hover { 
+	color: #ffd166;
+}
+.main_right {}
+.card-image {
+	/* background-color: #23243b; */ 
+	border-radius: 10px;
+	box-shadow: 18px 18px 0 0 #fa4c54,18px 18px 0 4px black;
+	padding: 20px; 
+	margin: 20px; 
+	width: 250px; 
+}
+/* Skills */ 
+#skills {}
+h1 {
+	text-align: center;
+	font-family: "Pixelify Sans", sans-serif; 
+}
+h3{
+	margin: 5px; 
+}
+.skill {
+	width: 500px;
+	margin: 60px auto; 
+	color: #fff; 
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(O, 0, 0, 0.25), 0 10px 10px rgba(O, 0, 0, 0.22);
+	background-color: #23243b; 
+}
+.skill li{
+	margin: 20px 0; 
+	padding: 10px; 
+	list-style: none;
+} 
+.bar{
+	background: #353b48; 
+	display: block; 
+	height: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.3); 
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
+}
+.bar:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.bar span { 
+	height: 20px; 
+	float: left;
+	background: linear-gradient(135deg, rgba(236, 0, 140,1) 0%, rgba(252,103,103,1) 100%);
+}
+.html {
+	width: 90%; 
+	animation: html 3s;
+}
+.css {
+	width: 70%; 
+	animation: css 3s;
+}
+.php{
+	width: 45%; 
+	animation: php 3s;
+}
+.javascript {
+	width: 60%;
+	animation: javascript 3s;
+}
+@keyframes html { 
+	0%{
+		twidth: 0%; 
+	}
+	100% { 
+		width: 90%; 
+	}
+}
+@keyframes css { 
+	0%{
+		twidth: 0%; 
+	}
+	100% { 
+		width: 70%; 
+	}
+}
+@keyframes PHP { 
+	0%{
+		twidth: 0%; 
+	}
+	100% { 
+		width: 45%;
+	}
+}
+@keyframes Javascript { 
+	0%{
+		twidth: 0%; 
+	}
+	100% { 
+		width: 60%; 
+	}
+}
+/* Footer */
+#footer{
+	display: flex;
+	color: #ffd166; 
+	background-color: #000; 
+	align-items: center; 
+	text-align: center; 
+	justify-content: center; 
+	flex-direction: column; 
+}
+/* RESPONSIVENESS */ 
+/* Mobile Devices */
+@media only screen and (max-width: 767px){
+	.main_left hi {
+		font-size: 2.3rem; 
+	}
+	.card-image { 
+		width: 200px;
+	}
+	#head{ 
+		padding: 10px;
+	}
+	.right{
+		font-size: 1.2rem; 
+	}
+	.left{
+		font-size: 1.2rem; 
+	}
+	#main{ 
+		padding: 0;
+	}
+	.card-image{ 
+		width: 150px;
+	}
+	.main_left h1 { 
+		font-size: 2rem;
+	}
+	.main_left p { 
+		font-size: 1rem;
+	} 
+}
+/* Tablets */
+@media only screen and (max-width: 521px) { 
+	body{
+		width: 100%; 
+	}
+	#head { 
+		padding: 10px; 
+		width: 105%;
+	} 
+	.left {
+		font-size: 1.3rem; 
+	}
+	.right{
+		font-size: 1.3rem; 
+	}
+	#main { 
+		padding: Opx;
+		width: 105%; 
+	}
+	.skill{
+		width: 508px; 
+	}
+	.main_cen{ 
+		padding: 20px; 
+		height: 95vh;
+	}
+	.card-image{ 
+		width: 150px;
+	}
+	.main_left h1 { 
+		font-size: 2rem;
+	}
+	.main_left p { 
+		font-size: 1rem;
+	}
+	#footer{ 
+		width: 105%;
+	}
+}
+/* Small Desktops and Laptops */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* styles for small desktops and laptops */ 
+}
+/* Large Desktops */
+@media only screen and (min-width: 1200px) { 
+/* styles for large desktops */
+}
+font-family: 'Exo 2', sans-serif; 
+font-family: 'Pixelify Sans', sans-serif;
